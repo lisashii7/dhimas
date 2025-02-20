@@ -108,7 +108,7 @@ const config = {
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "February 9, 2025", description: "Ngedate yang setelah ga ngedate sebulan, kangan bangettt" }, // Picture entry
+      { title: "February 9, 2025", description: "Ngedate yang setelah ga ngedate sebulan, kangen bangettt" }, // Picture entry
       { title: "July 23, 2024", description: "Our first photobooth" },
       { title: "August 4, 2024", description: "Our first survey rumah" },
     ],

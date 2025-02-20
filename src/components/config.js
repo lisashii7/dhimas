@@ -101,7 +101,7 @@ const config = {
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
       { title: "January 30, 2025", description: "Our first ketemu Keluarga" }, // Message entry
-      { title: "February 15, 2025", description: "Habis kondangan lihat hotel sa,bil ngedate" },
+      { title: "February 15, 2025", description: "Habis kondangan lihat hotel sambil ngedate" },
       { title: "August 25, 2025", description: "Our first ngafeee terus pulangnya beli soto" },
     ],
   

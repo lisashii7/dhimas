@@ -100,17 +100,17 @@ const config = {
     // 📝 Message Recap Page
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "January 30, 2025", description: "Our first ketemu Keluarga" }, // Message entry
+      { title: "February 15, 2025", description: "Habis kondangan lihat hotel sa,bil ngedate" },
+      { title: "August 25, 2025", description: "Our first ngafeee terus pulangnya beli soto" },
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "February 9, 2025", description: "Ngedate yang setelah ga ngedate sebulan, kangan bangettt" }, // Picture entry
+      { title: "July 23, 2024", description: "Our first photobooth" },
+      { title: "August 4, 2024", description: "Our first survey rumah" },
     ],
   
 

@@ -8,11 +8,11 @@ function Passcode() {
     const navigate = useNavigate();
   
     const handleNumberClick = (number) => {
-        if (passcode.length < 6) {
+        if (passcode.length < 8) { // Ubah dari 6 ke 8
             const newPasscode = [...passcode, number];
             setPasscode(newPasscode);
-
-            if (newPasscode.length === 4) {
+    
+            if (newPasscode.length === 8) { // Validasi saat 8 digit, bukan 4
                 const enteredPasscode = newPasscode.join('');
                 if (enteredPasscode === config.correctPasscode) {
                     setMessage(config.successMessage);
@@ -29,7 +29,7 @@ function Passcode() {
                 }
             }
         }
-    };
+    };    
 
     const handleCancel = () => {
         setPasscode([]);
@@ -44,7 +44,7 @@ function Passcode() {
 
                 {/* Passcode Dots */}
                 <div className="flex gap-4 mb-16">
-                    {[...Array(4)].map((_, i) => (
+                    {[...Array(8)].map((_, i) => (
                         <div
                             key={i}
                             className={`w-3.5 h-3.5 rounded-full ${
